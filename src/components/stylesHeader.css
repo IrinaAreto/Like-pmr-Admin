@@ -1,0 +1,36 @@
+.header {
+  background: linear-gradient(to bottom right, #f4ca1c, #e77e11);
+  height: 150px;
+  width: 100%;
+}
+
+.header-conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.header-conteiner > img {
+  height: 150px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 512px) {
+  .header {
+    height: 100px;
+  }
+
+  .header-conteiner > img {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    height: 80px;
+  }
+
+  .header-conteiner > img {
+    height: 80px;
+    margin: 0;
+  }
+}

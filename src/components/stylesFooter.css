@@ -1,0 +1,51 @@
+.footer {
+  background-color: #edd6a2;
+  height: 50px;
+}
+
+.footer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.copyright {
+  font-family: var(--base-font);
+  color: #948865;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.copyDev {
+  font-family: var(--base-font);
+  color: #948865;
+  margin: 0 15px 10px 0;
+  font-size: 12px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .copyright {
+    margin: 8px 0 10px 0;
+    font-size: 12px;
+  }
+
+  .copyDev {
+    margin: 0 10px 10px 0;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .copyright {
+    margin: 8px 0 10px 0;
+    font-size: 12px;
+  }
+
+  .copyDev {
+    margin: 0 8px 8px 0;
+    font-size: 10px;
+  }
+}
