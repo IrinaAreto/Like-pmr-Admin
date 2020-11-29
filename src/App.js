@@ -1,18 +1,18 @@
 import React from "react";
-import "./App.css";
-import { PageHeader } from "./components/PageHeader";
-import { NavigationRouters } from "./components/NavigationRouters";
-import { PageFooter } from "./components/PageFooter";
+import styles from "./App.module.css";
+import { PageHeader } from "./components/Header/PageHeader";
+import { NavigationRouters } from "./components/Navigation/NavigationRouters";
+import { PageFooter } from "./components/Footer/PageFooter";
 
 function App() {
   return (
-    <div className="App">
-      <div className="layout">
-        <header className="header">
+    <div className={styles.App}>
+      <div className={styles.layout}>
+        <header className={styles.header}>
           <PageHeader />
         </header>
           <NavigationRouters />
-        <footer className="footer">
+        <footer className={styles.footer}>
           <PageFooter />
         </footer>
       </div>

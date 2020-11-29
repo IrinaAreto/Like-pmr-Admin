@@ -1,0 +1,48 @@
+.loginContainer {
+    margin: 50px 200px 0 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    width: 320px;
+    padding: 40px;
+    box-shadow: var(--base-shadow);
+    background-color: #fbfaf4;
+}
+
+.inputLines {
+    margin-bottom: 12px;
+}
+
+.submit > button {
+    height: 32px;
+    width: 90px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.text {
+    width: 70px;
+    height: 30px;
+    line-height: 35px;
+    color: #6e7173;
+}
+
+.inputLine {
+    font-size: 18px;
+    line-height: 30px;
+    width: 310px;
+}
+
+.passwordLine {
+    position: relative;
+}
+
+.customIcon {
+    position: absolute;
+    left: auto;
+    right: 15px;
+    text-indent: 32px;
+    top: 10px;
+}

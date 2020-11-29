@@ -1,0 +1,22 @@
+.headerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.headerContainer > img {
+    height: 150px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 512px) {
+    .headerContainer > img {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .headerContainer > img {
+        height: 80px;
+        margin: 0;
+    }
+}

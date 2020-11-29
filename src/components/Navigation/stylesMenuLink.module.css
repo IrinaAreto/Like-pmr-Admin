@@ -1,0 +1,28 @@
+.menuButton {
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    font-family: var(--base-font);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--base-white);
+    text-shadow: 0.1em 0.1em 0.2em #6282ad;
+    background: linear-gradient(to right, #F4C91C, #e77f11);
+    border-radius: 4px;
+    text-decoration: none;
+    width: 180px;
+    margin-bottom: 10px;
+    box-shadow: var(--base-shadow);
+}
+
+.menuButton:hover {
+    background-color: #e8c374;
+    transition-duration: 1s;
+}
+
+.menuButton.active {
+    color: #385786;
+    text-shadow: none;
+    font-size: 18px;
+}
